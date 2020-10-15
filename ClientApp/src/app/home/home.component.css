@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  width: 60%;
+  margin: 110px, auto;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+.container p {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+/*# sourceMappingURL=home.component.css.map */
