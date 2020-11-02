@@ -10,6 +10,10 @@ namespace test.Context
 {
     public class EmployeeContext: Microsoft.EntityFrameworkCore.DbContext
     {
+        /// <summary>
+        /// DB context
+        /// </summary>
+        /// <param name="options"></param>
         public EmployeeContext(DbContextOptions<EmployeeContext> options) : base(options)
         {
             
