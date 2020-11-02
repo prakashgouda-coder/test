@@ -1,9 +1,25 @@
-p-card {
-  padding: 30px;
-  width: 430px !important;
+.category {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  position: fixed;
+  max-width: 70%;
+  padding: 2em;
+  display: grid;
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
-div {
-  margin: 20px;
+.cat-item {
+  margin-top: 2em;
+  background: white;
+}
+
+span {
+  margin: 1.3em;
+}
+
+input {
+  border-radius: .5em;
 }
 /*# sourceMappingURL=category.component.css.map */

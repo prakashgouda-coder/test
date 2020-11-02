@@ -1,6 +1,7 @@
-<p-card>
-    <div class="p-fluid p-grid">
-        <div class="p-field p-col-6 p-md-4">
+<div class="category">
+    
+    <div class="p-fluid p-grid ">
+        <div class="p-field p-col-6 p-md-4 cat-item">
             <span class="p-float-label">
                 <input type="text" id="slno" pInputText [(ngModel)]="SlNo">
                 <label for="slno">Sl No</label>
@@ -12,7 +13,7 @@
                 <label for="catname">Category</label>
             </span>
         </div>
-        <div class="p-field p-col-6 p-md-4">
+        <div class="p-field p-col-6 p-md-4 cat-item">
             <span class="p-float-label">
                 <input type="text" id="make" pInputText [(ngModel)]="Make">
                 <label for="make">Make</label>
@@ -22,10 +23,64 @@
                 <input type="text" id="quantity" pInputText [(ngModel)]="Quantity">
                 <label for="quantity">Quantity</label>
             </span>
-        </div>
+        </div> 
+        <div class="p-field p-col-6 p-md-4 cat-item">
+            <span class="p-float-label">
+                <input type="text" id="make" pInputText [(ngModel)]="Make">
+                <label for="make">Make</label>
+            </span>
          
+            <span class="p-float-label">
+                <input type="text" id="quantity" pInputText [(ngModel)]="Quantity">
+                <label for="quantity">Quantity</label>
+            </span>
+        </div> 
+        <div class="p-field p-col-6 p-md-4 cat-item">
+            <span class="p-float-label">
+                <input type="text" id="make" pInputText [(ngModel)]="Make">
+                <label for="make">Make</label>
+            </span>
+         
+            <span class="p-float-label">
+                <input type="text" id="quantity" pInputText [(ngModel)]="Quantity">
+                <label for="quantity">Quantity</label>
+            </span>
+        </div> 
+    </div>
+    <div class="p-field p-col-6 p-md-4 cat-item">
+        <span class="p-buttonset">
+            <button pButton type="button" label="Save" icon="pi pi-check"></button>
+            <button pButton type="button" label="Delete" icon="pi pi-trash"></button>
+            <button pButton type="button" label="Cancel" icon="pi pi-times"></button>
+        </span>
     </div>
      
-</p-card>
-
+            
+</div>
+   
  
+
+<!-- <p-card class="category">
+     
+    <div class="cat-item">
+        <span class="p-float-label">
+            <input type="text" id="slno" pInputText [(ngModel)]="SlNo">
+            <label for="slno">Sl No</label>
+        </span> 
+        <span class="p-float-label">
+            <input type="text" id="catname" pInputText [(ngModel)]="Category">
+            <label for="catname">Category</label>
+        </span>
+    </div>
+    <div class="cat-item">
+        <span class="p-float-label">
+            <input type="text" id="make" pInputText [(ngModel)]="Make">
+            <label for="make">Make</label>
+        </span> 
+        <span class="p-float-label">
+            <input type="text" id="quantity" pInputText [(ngModel)]="Quantity">
+            <label for="quantity">Quantity</label>
+        </span>
+    </div> 
+ 
+</p-card> -->
