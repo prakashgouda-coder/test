@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using test.Context;
+using myinventory.Context;
 
-namespace test
+namespace myinventory
 {
     public class Startup
     {

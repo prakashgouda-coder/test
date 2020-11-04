@@ -1,6 +1,6 @@
 using System;
 
-namespace test
+namespace myinventory
 {
     public class WeatherForecast
     {

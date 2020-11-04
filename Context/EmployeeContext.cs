@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using test.Models;
+using myinventory.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Entity;
 
-namespace test.Context
+namespace myinventory.Context
 {
     public class EmployeeContext: Microsoft.EntityFrameworkCore.DbContext
     {
