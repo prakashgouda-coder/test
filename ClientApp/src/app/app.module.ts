@@ -9,6 +9,7 @@ import {ButtonModule} from 'primeng/button';
 
 import {PrimengModule} from './primeng/primeng.module';
 import{UsersModule} from './users/users.module';
+import{SalesModule} from './sales/sales.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -29,6 +30,7 @@ import { ServiceService } from './service.service';
   imports: [
     CommonModule,
     UsersModule,
+    SalesModule,
     InputTextModule,
     ButtonModule,
     CardModule,
